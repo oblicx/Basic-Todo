@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border-style: none;
+
+}
+
+
+body{
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    background: url(/background.jpg);
+    background-size: cover;
+}
+
+
+.maincontainer{
+    background: url();
+    height: 100vh;
+}
+
+#add{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(2, 2, 2, 0.473);
+    border-radius: 8px;
+    border-style: none;
+    border-width: 0px;
+    margin-top: 20vh;
+    
+    
+    
+}
+
+#add:focus-within{
+    border-style: none;
+    border-width:none;
+}
+
+
+#add:hover{
+    background-color: rgba(185, 63, 63, 0.733);
+}
+
+
+
+
+p{
+    font-size: 20px;
+    
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.171);
+    border-radius: 8px;
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.listoftodos{
+    margin-top: 30px;
+    height: 500px;
+    overflow: auto;
+}
+p:hover{
+    background-color: rgba(214, 44, 44, 0.507);
+}
